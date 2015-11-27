@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>статистический калькулятор</title>
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+  <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap-theme.min.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
+  <script type="text/javascript" src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/min.js">
+
+  </script>
+
+</script>
+<body onload="init()">
+  <h1>Инженерный калькулятор</h1>
+  <div class="form-group form-wrapper">
+    <input class="form-control-input" id="expr" value="">
+	<div class="btn-group">
+	<table id="numeric">
+		<tr>
+			<td>
+				<input class="form-control btn btn-default" id="one" value="1">
+			</td>
+			<td>
+				<input class="form-control btn btn-default" id="two" value="2">
+			</td>
+			<td>
+				<input class="form-control btn btn-default" id="three" value="3">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input class="form-control btn btn-default" id="four" value="4">
+			</td>
+			<td>
+				<input class="form-control btn btn-default" id="five" value="5">
+			</td>
+			<td>
+				<input class="form-control btn btn-default" id="six" value="6">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input class="form-control btn btn-default" id="seven" value="7">
+			</td>
+			<td>
+				<input class="form-control btn btn-default" id="eight" value="8">
+			</td>
+			<td>
+				<input class="form-control btn btn-default" id="nine" value="9">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input class="form-control btn btn-default" id="point" value=".">
+			</td>
+			<td>
+				<input class="form-control btn btn-default" id="zero" value="0">
+			</td>
+			<td>
+				<input class="form-control btn btn-default" id="nul" value="00">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input class="form-control btn btn-default" id="obr" value="1/x">
+			</td>
+			<td>
+				<input class="form-control btn btn-default" id="per" value="%">
+			</td>
+			<td>
+				<input class="form-control btn btn-default" id="rev" value="+/-">
+			</td>
+		</tr>
+	</table>
+	<table id="operation">
+		<tr>
+			<td>
+				<input class="form-control btn btn-default" id="sum" value="+">
+			</td>
+			<td>
+				<input class="form-control btn btn-default" id="sub" value="-">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input class="form-control btn btn-default" id="mult" value="*">
+			</td>
+			<td>
+				<input class="form-control btn btn-default" id="div" value="/">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input class="form-control btn btn-default" id="sqr" value="Х²">
+			</td>
+			<td>
+				<input class="form-control btn btn-default" id="sqrt" value="√X">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input class="form-control btn btn-default" id="sin" value="sin(x)">
+			</td>
+			<td>
+				<input class="form-control btn btn-default" id="cos" value="cos(x)">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input class="form-control btn btn-default" id="res" value="=">
+			</td>
+			<td>
+				<input class="form-control btn btn-default" id="tan" value="tan(x)">
+			</td>
+		</tr>
+  </div>
+</body>
+</html>

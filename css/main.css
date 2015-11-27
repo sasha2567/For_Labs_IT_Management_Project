@@ -1,0 +1,39 @@
+.form-wrapper, .functions-wrapper {
+  width: 515px;
+  margin-left: 20px;
+}
+
+
+
+.form-control-input {
+  width: 505px;
+  margin: -1px -1px;
+  border-radius: 0px;
+}
+
+#numeric {
+	width: 300px;
+	float: left;
+	margin: 0 15px 0 0;
+}
+
+#numeric tr {
+	margin: 10px 0 10px 0;
+}
+
+#numeric tr td {
+	padding: 10px;
+}
+
+#operation {
+	width: 200px;
+	float: right;
+}
+
+#operation tr {
+	margin: 10px 0 10px 0;
+}
+
+#operation tr td {
+	padding: 10px;
+}
